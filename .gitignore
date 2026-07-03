@@ -1,0 +1,6 @@
+# Ignore all personal settings, themes, and plugins
+.obsidian/
+
+# System files
+.DS_Store
+Thumbs.db

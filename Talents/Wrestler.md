@@ -1,0 +1,2 @@
+#Talent 
+When using the [[Restrain]] action, the target has disadvantage on rolls to avoid being restrained, and getting out of your restraint. In addition, you have advantage to avoid the restrained condition, and if you have it, you have advantage on rolls to break out.

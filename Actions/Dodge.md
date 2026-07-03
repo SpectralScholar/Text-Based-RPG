@@ -1,0 +1,1 @@
+If you are attacked, you may spend 1 reaction point to increase your AC by 2 for that attack. You can Move 1 unit after the attack.

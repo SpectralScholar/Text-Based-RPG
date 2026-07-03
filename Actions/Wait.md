@@ -1,0 +1,1 @@
+You may spend 1 action point to gain 1 reaction point with the wait action
