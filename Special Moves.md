@@ -47,7 +47,7 @@ Effects:
 		Adjacent (2 points)
 		Cone (3 points per meter)
 		Line (2 points per meter)
-		Distance (1 point per meter, must choose single target clause)
+		Distance (1 point per 2 meters, must choose single target clause)
 		Sphere (4 points per meter)
 		Cube (4 points per meter)
 		Sight (15 points, must choose the single target or the multiple targets options for your target clause)
@@ -58,9 +58,11 @@ Effects:
 		If applicable:
 			Origin:
 				Self: 0 points
-				Ally: 2 point
-				Enemy: 4 points
-				Anywhere: 8 points
+				Target within X meters:
+					Ally: 1 point per 2 meters
+					Enemy: 1 point per meter
+					Anywhere: 3 points per 2 meters
+					Anywhere including obstacles and barriers: 3 points per meter
 	Targets:
 		Single target (0 points)
 		Multiple targets (2 points per extra target)
@@ -84,9 +86,11 @@ Costs:
 	Requirement (Every move needs at least one of these):
 		Action point (2 points per action point)
 		Reaction point (2 points per reaction point)
+		Requires you to preform action to happen (0 points)
+	Resource:
 		Loss of use of a certain Stat/Action for X turns (1 point per turn, 2 per turn if it is your highest stat at the time of this move's creation)
 		Consumes a resource you have access to (2 points)
-		Requires you to preform action to happen (0 points)
+		Requires an object in one of your hands (1 point)
 	Damage:
 		Receive a status ailment (1 point per level, 1 point per turn of duration)
 		Injure a part of your body (2^x points per level of severity)
@@ -95,7 +99,7 @@ Costs:
 	Use limits (must have one of both conditions):
 		Charges:
 			Stat (2 points, tied to a stat of your choice)
-			Number (3/x points rounded normally)
+			Number (3/x points rounded normally, max 5)
 		Recharge time
 			Per Long Rest (6 points) 
 			Per Short Rest (4 points)

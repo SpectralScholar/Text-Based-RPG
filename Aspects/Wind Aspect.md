@@ -15,5 +15,5 @@ Combination with Lightning Aspect
 	Sound
 		Effects
 			Intent
-				Soundwave dealing Psychic damage (8 points + 1 the scale factor of your move)
-					Must use cone for effect range, damage dice diminishes by 1 level every 2 meters. Range is equal to 2 x total dice level. Affects all valid targets within range
+				Soundwave dealing Psychic damage (8 points + the scale factor of your move)
+					Must use cone for effect range, damage dice diminishes by 1 level every 2 meters. Range is equal to 2 x total dice level. Affects all valid targets within range.
