@@ -68,6 +68,8 @@ Effects:
 		Multiple targets (2 points per extra target)
 		First X targetable creatures (1 point per X, must have line or cone ranges)
 		All targetable within range (3 times range cost, requires range)
+		All allies within range (4 times range cost)
+		All enemies within range (5 times range cost)
 	Scale:
 		Dice (1 point for each dice level, can have multiple dice)
 		Number (1 point multiplied by the number's value divided by 2 rounded up)
@@ -90,7 +92,7 @@ Costs:
 	Resource:
 		Loss of use of a certain Stat/Action for X turns (1 point per turn, 2 per turn if it is your highest stat at the time of this move's creation)
 		Consumes a resource you have access to (2 points)
-		Requires an object in one of your hands (1 point)
+		Requires a certain object in your possession (1 point)
 	Damage:
 		Receive a status ailment (1 point per level, 1 point per turn of duration)
 		Injure a part of your body (2^x points per level of severity)

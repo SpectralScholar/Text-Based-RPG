@@ -1,0 +1,1 @@
+Gain a +1 bonus to the next roll against a target in melee range
